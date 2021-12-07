@@ -52,6 +52,29 @@
 
             </androidx.appcompat.widget.Toolbar>
 
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                android:elevation="8dp"
+                app:contentInsetLeft="@dimen/second_keyline_default"
+                app:contentInsetStart="@dimen/second_keyline_default"
+                app:popupTheme="?attr/actionBarPopupTheme"
+                app:theme="?attr/actionBarTheme">
+                
+
+                <Button
+                    android:id="@+id/music"
+                    android:text="player"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:textColor="@android:color/black"/>
+
+            </androidx.appcompat.widget.Toolbar>
+
             <FrameLayout
                 android:id="@+id/container_rate"
                 android:layout_width="match_parent"
