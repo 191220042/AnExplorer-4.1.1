@@ -52,6 +52,29 @@
 
             </androidx.appcompat.widget.Toolbar>
 
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                android:elevation="8dp"
+                app:contentInsetLeft="@dimen/second_keyline_default"
+                app:contentInsetStart="@dimen/second_keyline_default"
+                app:popupTheme="?attr/actionBarPopupTheme"
+                app:theme="?attr/actionBarTheme">
+
+                <TextView
+                    android:id="@+id/text"
+                    android:text="Welcome to File Manager"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold|italic"
+                    android:textColor="@android:color/holo_blue_light"/>
+                
+            </androidx.appcompat.widget.Toolbar>
+
+
             <FrameLayout
                 android:id="@+id/container_rate"
                 android:layout_width="match_parent"
