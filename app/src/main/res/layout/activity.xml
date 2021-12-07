@@ -71,7 +71,7 @@
                     android:layout_width="wrap_content"
                     android:textStyle="bold|italic"
                     android:textColor="@android:color/holo_blue_light"/>
-                
+
             </androidx.appcompat.widget.Toolbar>
 
 
