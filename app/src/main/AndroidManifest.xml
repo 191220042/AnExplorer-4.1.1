@@ -47,6 +47,11 @@
         android:usesCleartextTraffic="true"
         android:supportsRtl="true">
 
+        <activity
+            android:name=".Music_Activity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:exported="false"></activity>
+
         <meta-data android:name="WindowManagerPreference:FreeformWindowSize"
             android:value="[phone|tablet|maximize]" />
         <meta-data android:name="WindowManagerPreference:FreeformWindowOrientation"

@@ -50,6 +50,7 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
+import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -240,6 +241,16 @@ public class DocumentsActivity extends BaseActivity implements MenuItem.OnMenuIt
         } else {
             buildDefaultState();
         }
+
+
+        final Activity main = this;
+        Button musicButton = (Button) findViewById(R.id.music);
+        musicButton.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                Intent intent = new Intent(main, Music_Activity.class);
+                startActivity(intent);
+            }
+        });
 
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
         mToolbar.setTitleTextAppearance(context, R.style.TextAppearance_AppCompat_Widget_ActionBar_Title);
